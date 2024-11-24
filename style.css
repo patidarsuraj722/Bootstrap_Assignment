@@ -1,0 +1,328 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+
+  /* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.red-bg-img {
+    background-color: #d32f2f;
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.text-bg {
+    background-color: #f5b041;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.desc {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Star Rating */
+.fa-star, .fa-star-half {
+    color: #fbc02d;
+    margin: 0 2px;
+}
+
+.container .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.card mark {
+    background-color: #ffecb3;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Profile Image Styling */
+.col-3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Circle Design */
+.circle {
+    border-radius: 50%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.start {
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .red-bg-img .row {
+        flex-direction: column;
+    }
+
+    .col-7, .col-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-3 img {
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+}
+
+  
+  
+  .bg-color {
+    background-color: #FFF1E9;
+    width: 100%;
+  }
+  
+  .display-font-family {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .underlined {
+    position: relative;
+    margin-right: 1rem;
+  }
+  .underlined:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    border: solid 5px #cb1829;
+    border-color: #cb1829 transparent transparent transparent;
+    border-radius: 20%;
+  }
+  .u-color {
+    color: black;
+  }
+  
+  .text-bg {
+    background-color: #F8EC34;
+  }
+  
+  .text-color {
+    color: #F8EC34;
+  }
+  
+  .hr-line {
+    border: 2px solid #EE2737;
+  }
+  
+  .bg-black-shade {
+    background-color: #18110E;
+  }
+  
+  .bg-img {
+    background-image: url(../images/bg-man.png);
+    background-repeat: no-repeat;
+    background-color: #18110E;
+  }
+  
+  .btn-img {
+    background-image: url(../images/flag.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .btn-secondary.dropdown-toggle::after {
+    border-top-color: black;
+    /* Top arrow color */
+    border-right-color: transparent;
+    /* Right side of arrow */
+    border-left-color: transparent;
+    /* Left side of arrow */
+  }
+  
+  .btn-shadow {
+    background-color: #EE2737;
+    box-shadow: 5px 5px rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0);
+  }
+  
+  .text-underline {
+    border-bottom: 1px solid yellow;
+  }
+  
+  .red-bg-img {
+    background-color: #EE2737;
+    width: 100%;
+  }
+  
+  .desc {
+    font-size: 1.1rem;
+  }
+  
+  .circle {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .skin-box {
+    border: 2px solid red;
+    border-radius: 25px;
+    box-shadow: 0px 10px red;
+  }
+  
+  .dashed-border {
+    border: 2px dashed black;
+  }
+  
+  .skin-box-position {
+    position: relative;
+    bottom: 12px;
+  }
+  
+  .reg-now-shadow {
+    color: yellow;
+    background-color: #EE2737;
+    box-shadow: 3px 3px black;
+    font-size: xx-large;
+  }
+  
+  .box-dotted {
+    border-top: 6px dotted yellow;
+    border-bottom: 6px dotted yellow;
+  }
+  
+  .text-decor {
+    text-decoration: underline;
+    text-decoration-color: #F8EC34;
+  }
+  
+  .btn-yellow-text {
+    color: #F8EC34;
+  }
+  
+  .custom-bg {
+    background-image: url("../images/custom-bg.png");
+    border-radius: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    text-align: justify;
+  }
+  
+  .bi {
+    color: #EE2737;
+  }
+  
+  .reg-now-medium-shadow {
+    color: yellow;
+    background-color: #EE2737;
+    box-shadow: 3px 3px black;
+    font-size: larger;
+  }
+  
+  .dotted-gray {
+    color: gray;
+  }
+  
+  .dotted-white {
+    color: white;
+  }
+  
+  .red-border {
+    border: 5px solid red;
+    border-radius: 10px;
+  }
+  
+  .hr-line-yellow {
+    height: 4px;
+    background-color: #F8ED3F;
+    border: none;
+  }
+  
+  .bi-size {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .bg-color-red {
+    background-color: #ED2736;
+  }
+  
+  .dashed-white {
+    border: 3px dashed white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  
+  }
+  
+  .whatsapp-icon {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+  }
+  
+  .fa-star,
+  .fa-star-half {
+    color: gold;
+  
+  }
+  
+  .card-text {
+    font-size: xx-small;
+  }
+  
+  .card-title {
+    font-size: medium;
+  }
+  
+  .card {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  .yellow-shadow {
+    box-shadow: 1px 1px 10px 4px rgba(255, 255, 0, 0.954);
+  }
+  .subtitle{
+    font-size: large;
+  }
+
+
+
+  
